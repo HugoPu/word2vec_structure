@@ -120,7 +120,7 @@ def main(_):
         sv = tf.train.Supervisor(logdir=FLAGS.save_path)
         config_proto = tf.ConfigProto(allow_soft_placement=soft_placement)  # Used to set config for session
         with sv.managed_session(config=config_proto) as session:
-            # Times to loop corpus
+            # Times to loop corpusvxcvzxvxvzxvzxvz
             for i in range(config.max_max_epoch):
                 time1 = time.time()
                 # Calculate learning decay
